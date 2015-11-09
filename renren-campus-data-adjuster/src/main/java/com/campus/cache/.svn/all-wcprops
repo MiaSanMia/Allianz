@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ugc/!svn/ver/98804/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache
+END
+TripodClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/TripodClient.java
+END
+CacheClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ugc/!svn/ver/98947/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/CacheClient.java
+END
+CacheClientFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/CacheClientFactory.java
+END
+TairCacheClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ugc/!svn/ver/98947/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/TairCacheClient.java
+END
+CacheConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/CacheConstant.java
+END
+CachePoolType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/CachePoolType.java
+END
+TimeConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/cache/TimeConstant.java
+END

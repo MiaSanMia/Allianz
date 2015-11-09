@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+		<groupId>com.xiaonei</groupId>
+		<artifactId>xiaonei-root-pom</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+  <groupId>com.renren.campus</groupId>
+  <artifactId>renren-campus-data-adjuster</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>renren-campus-data-adjuster</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  	
+			<!-- rose 扫描 -->
+		<dependency>
+			<groupId>net.paoding</groupId>
+			<artifactId>paoding-rose</artifactId>
+		</dependency>
+		
+				<!-- JADE依赖包 -->
+		<dependency>
+			<groupId>net.paoding</groupId>
+			<artifactId>paoding-rose-jade</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- JADE DataSource -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-datasource4jade</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		
+		<dependency>
+          <groupId>com.xiaonei</groupId>
+          <artifactId>xiaonei-openplatform-biz-model</artifactId>
+          <version>1.0-SNAPSHOT</version>	  		  
+        </dependency>
+		
+		<dependency>
+            <groupId>org.json</groupId>
+            <artifactId>jsonrpc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+		
+		<dependency>
+           <groupId>org.json.simple</groupId>
+           <artifactId>json_simple</artifactId>
+           <version>1.1</version>
+        </dependency>
+	 <dependency>
+  <groupId>org.perf4j</groupId>
+  <artifactId>perf4j</artifactId>
+  <version>0.9.10</version>
+     </dependency>
+     
+     <dependency>
+			<groupId>com.renren.campus</groupId>
+			<artifactId>renren-campus-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.renren.campus</groupId>
+			<artifactId>renren-campus-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+     
+      <dependency>
+        <groupId>com.renren.tair</groupId>
+  		<artifactId>tair-util</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+	 </dependency> 
+
+     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  	<build>
+	
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>com.campus.BootStrap</mainClass>
+						</manifest>
+						<manifestEntries>
+							<Rose>*</Rose>
+						</manifestEntries>
+
+					</archive>
+					<outputDirectory>${project.build.directory}/lib</outputDirectory>
+					<overWriteReleases>false</overWriteReleases>
+					<overWriteSnapshots>false</overWriteSnapshots>
+					<overWriteIfNewer>true</overWriteIfNewer>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.5</version>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <!-- here the phase you need -->
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/lib</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>src/main/resources</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+        </executions>
+      </plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<overWriteReleases>false</overWriteReleases>
+							<overWriteSnapshots>false</overWriteSnapshots>
+							<overWriteIfNewer>true</overWriteIfNewer>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+  
+</project>

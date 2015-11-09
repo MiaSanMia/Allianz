@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ugc/!svn/ver/98804/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/mbean
+END
+CampusMonitorClientMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/98947/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/mbean/CampusMonitorClientMBean.java
+END
+CampusMonitorClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/100958/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/mbean/CampusMonitorClient.java
+END
+TripodMonitorMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/101941/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/mbean/TripodMonitorMBean.java
+END
+TripodMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/101941/campus/trunk/renren-campus-data-adjuster/src/main/java/com/campus/mbean/TripodMonitor.java
+END

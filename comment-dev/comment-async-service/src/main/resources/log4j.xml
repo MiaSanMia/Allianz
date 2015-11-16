@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+  
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' >
+  
+	<appender name="myConsole" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+		 	<param name="ConversionPattern"  
+		  		value="[%d{dd HH:mm:ss,SSS\} %-5p] [%t] %c{2\} - %m%n" />
+		</layout>
+		<!--过滤器设置输出的级别-->
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="levelMin" value="debug" />
+			<param name="levelMax" value="warn" />
+			<param name="AcceptOnMatch" value="true" />
+		</filter>
+	</appender>
+	
+	<appender name="jade.fileAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="file" value="/data/logs/xoa2/jade.log"/>
+      <param name="MaxFileSize" value="200MB"/>
+      <param name="MaxBackupIndex" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{yyyy-MM-dd hh:mm:ss} [%t] %-5p %C{6} (%F:%L) - %m%n"/>
+      </layout>
+    </appender>
+ 
+	<appender name="comment.fileAppender" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="/data/logs/xoa2/comment-async.log"/>
+		<param name="MaxFileSize" value="200MB"/>
+		<param name="MaxBackupIndex" value="10"/>
+		<layout class="org.apache.log4j.PatternLayout">
+		    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %C{6} (%F:%L) - %m%n"/> 
+		</layout>
+    </appender>
+    
+    <!-- 该 appender 用于输出性能统计的汇总结果 -->
+    <appender name="xoa.framework.perfStatsAppender" class="org.apache.log4j.FileAppender">
+      <param name="File" value="/data/logs/xoa2/perfStats.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%m%n"/>
+        </layout>
+    </appender>
+
+    <!-- 该 appender 用于输出性能统计的细节 -->
+    <appender name="xoa.framework.perfDetailAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="file" value="/data/logs/xoa2/perfDetail.log"/>
+      <param name="MaxFileSize" value="200MB"/>
+      <param name="MaxBackupIndex" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%m%n"/>
+      </layout>
+    </appender>
+
+    <appender name="xoa.framework.fileAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="file" value="/data/logs/xoa2/xoa2.log"/>
+      <param name="MaxFileSize" value="200MB"/>
+      <param name="MaxBackupIndex" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{yyyy-MM-dd hh:mm:ss} [%t] %-5p %C{6} (%F:%L) - %m%n"/>
+      </layout>
+    </appender>
+    
+    <!-- 统计 -->
+    <appender name="commentStatisticsAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/data/logs/xoa2/comment-statistics.log" />
+        <param name="DatePattern" value="'_'yyyy-MM-dd"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+        </layout>
+    </appender>
+    
+    <appender name="comment.access.xlogAppender" class="com.renren.dp.xlog.appender.Log4jAppender">
+      <param name="async" value="true"/>
+      <param name="cacheFileDir" value="/tmp/xlog/comment"/> <!-- 其中 cacheFileDir是选择本地的临时buffer目录，xlog会递归的自动创建此目录，当前进程必须对这个目录具备读写权限 -->
+      <param name="cacheQueueSize" value="10000"/> <!-- 其中 cacheQueueSize 是客户端内存缓存队列大小，默认10000　-->
+      <param name="maxSendSize" value="10000"/> <!-- 其中 maxSendSize 是一次性发多大的数据包，它的值在［1, 50000］之间（单位：字节）　-->
+      <param name="protocolType" value="tcp"/><!-- 其中 protocolType 是传输的通信方式，默认udp会丢包，如不希望丢包则使用tcp　-->
+      <param name="compress" value="false"/><!-- 是否通过压缩传输，建议大数据量用false，小数据量用true，默认不压缩　-->
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{yyyy-MM-dd-HH:mm:ss}|%X{ip}|%m"/>
+          <!-- 其中%d{yyyy-MM-dd-HH:mm:ss}表示日期时间，也即程序代码中无需再自动拼凑时间 -->
+          <!-- 其中%X{ip}表示当前机器的IP，也即程序代码中无需再拼凑IP -->
+          <!-- 其中%m表示真正log内容 -->
+          <!-- 特别注意：结尾处处不需要%n，xlog服务器端会自动添加换行 -->
+      </layout>
+    </appender>
+
+    <appender name="comment.access.localAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="file" value="/data/logs/xoa2/comment-access.log"/>
+      <param name="MaxFileSize" value="200MB"/>
+      <param name="MaxBackupIndex" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{yyyy-MM-dd-HH:mm:ss}|%X{ip}|%m%n"/>
+      </layout>
+    </appender>
+	
+	<logger name="com.renren.ugc.comment" additivity="false">
+		<level value="error" />
+		<appender-ref ref="comment.fileAppender"/>
+		<!-- <appender-ref ref="myConsole" />  -->
+    </logger>
+    
+    <logger name="comment-statistics" additivity="false">
+       <level value="info" />
+       <appender-ref ref="commentStatisticsAppender" />
+    </logger>
+    <logger name="org.perf4j.TimingLogger" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="xoa.framework.perfDetailAppender"/>
+    </logger>
+
+    <logger name="com.renren.xoa2" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="xoa.framework.fileAppender"/>
+    </logger>
+
+    <logger name="org.apache.thrift" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="xoa.framework.fileAppender"/>
+    </logger>
+    
+    <logger name="net.paoding.rose" additivity="false">
+        <level value="WARN" />
+        <appender-ref ref="jade.fileAppender" />
+   </logger>
+
+   <logger name="com.xiaonei.jade" additivity="false">
+        <level value="WARN" />
+        <appender-ref ref="jade.fileAppender" />
+   </logger>
+
+   <logger name="ugc.comment.access" additivity="false">
+        <level value="info" />
+        <appender-ref ref="comment.access.xlogAppender" />
+        <appender-ref ref="comment.access.localAppender" />
+   </logger>
+
+	<!-- 根logger的设置-->
+	<root>
+		<level value="error"/>
+		<appender-ref ref="xoa.framework.fileAppender"/>
+	</root>
+</log4j:configuration>
+	

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ugc/!svn/ver/96578/comment/branches/dev/comment-service/src/test/resources
+END
+reset-test-db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/resources/reset-test-db.sql
+END
+applicationContext-comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/resources/applicationContext-comment.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/resources/log4j.xml
+END

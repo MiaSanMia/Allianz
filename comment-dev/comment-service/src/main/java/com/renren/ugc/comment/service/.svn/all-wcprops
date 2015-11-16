@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ugc/!svn/ver/102061/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service
+END
+CommentStorageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/ugc/!svn/ver/101775/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentStorageService.java
+END
+AsynPrintJobService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/AsynPrintJobService.java
+END
+AsynGlobalCommentJobService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/AsynGlobalCommentJobService.java
+END
+CommentCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentCenter.java
+END
+CommentIdentify.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentIdentify.java
+END
+BaseAsyncJobService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/BaseAsyncJobService.java
+END
+AsynJobService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/AsynJobService.java
+END
+FriendRelationThreadPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/FriendRelationThreadPool.java
+END
+CommentUrlStorageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/96709/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentUrlStorageService.java
+END
+DatabaseAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/101737/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/DatabaseAdapter.java
+END
+CommentLogicAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentLogicAdapter.java
+END
+GetFriendListService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/97999/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/GetFriendListService.java
+END
+KeySpace.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/KeySpace.java
+END
+CommentLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/CommentLogic.java
+END

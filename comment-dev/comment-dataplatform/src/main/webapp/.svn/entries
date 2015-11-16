@@ -1,0 +1,130 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-dataplatform/src/main/webapp
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-04-01T08:22:00.271211Z
+98490
+chao.wang9@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+404.htm
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+3e4e545e4feefee180994619d953563d
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+500.htm
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+1d4acea07d666362a49f9e2588e95791
+2014-03-27T02:48:15.914566Z
+98307
+chao.wang9@XIAONEI.OPI.COM
+
+WEB-INF
+dir
+
+ajaxProxy.html
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+8aac62dc459961999401aac282fe6693
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+ajaxproxy.htm
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+23a8ebde0f8cc2cfc1e4bbca04d2abe4
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+amcharts
+dir
+
+assets
+dir
+
+crossdomain.xml
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+f28ee052f87a28aab17a569ecd80cf0c
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+css
+dir
+
+inc
+dir
+
+index.jsp
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+a00616e257f1b037f2933ab988210e0f
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+ok.html
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2014-03-27T03:49:15.177912Z
+98319
+chao.wang9@XIAONEI.OPI.COM
+
+views
+dir
+

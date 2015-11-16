@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/102003/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl
+END
+UgcCommentProcessInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/ugc/!svn/ver/99504/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/UgcCommentProcessInterceptor.java
+END
+AtFilterInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/AtFilterInterceptor.java
+END
+MatterToMeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/MatterToMeInterceptor.java
+END
+SyncPhotoCommentToAlbumInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/ugc/!svn/ver/101980/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/SyncPhotoCommentToAlbumInterceptor.java
+END
+SendNotifyedInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/SendNotifyedInterceptor.java
+END
+producer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/producer.properties
+END
+UpdateCountInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/101980/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/UpdateCountInterceptor.java
+END
+ShareUpdateFeedInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/ShareUpdateFeedInterceptor.java
+END
+GlobalShareCommentIdTransferInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/ugc/!svn/ver/96602/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GlobalShareCommentIdTransferInterceptor.java
+END
+WriteOldDatabaseInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/WriteOldDatabaseInterceptor.java
+END
+SetAuthorInfoInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/99371/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/SetAuthorInfoInterceptor.java
+END
+SendNoticeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/SendNoticeInterceptor.java
+END
+SetFloorInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/SetFloorInterceptor.java
+END
+WriteOldDatabasePreInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/WriteOldDatabasePreInterceptor.java
+END
+ShortUrlDecryptInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/ShortUrlDecryptInterceptor.java
+END
+UpdateFeedInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/102003/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/UpdateFeedInterceptor.java
+END
+GetMetadataInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/99371/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GetMetadataInterceptor.java
+END
+CommentScoreInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/CommentScoreInterceptor.java
+END
+AntispamInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/AntispamInterceptor.java
+END
+UpdateFeedRedisInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/ugc/!svn/ver/101160/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/UpdateFeedRedisInterceptor.java
+END
+StatusCommentMqInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/StatusCommentMqInterceptor.java
+END
+GetLikeInfoInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GetLikeInfoInterceptor.java
+END
+CampusIsGagInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/CampusIsGagInterceptor.java
+END
+ShortUrlEncryptInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/ShortUrlEncryptInterceptor.java
+END
+UgcMqInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/ugc/!svn/ver/100513/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/UgcMqInterceptor.java
+END
+ShareAntispamInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/97098/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/ShareAntispamInterceptor.java
+END
+CheckFriendsBlockInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/CheckFriendsBlockInterceptor.java
+END
+StatusCommentNoticeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/StatusCommentNoticeInterceptor.java
+END
+GlobalCommentProcessInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/ugc/!svn/ver/102002/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GlobalCommentProcessInterceptor.java
+END
+GetEntryInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GetEntryInterceptor.java
+END
+GetRelatedCommentInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/ugc/!svn/ver/99059/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GetRelatedCommentInterceptor.java
+END
+CheckLengthInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/CheckLengthInterceptor.java
+END
+PhotoSendWithNoticeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/ugc/!svn/ver/101981/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/PhotoSendWithNoticeInterceptor.java
+END
+AuditInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/AuditInterceptor.java
+END
+GetAtInfoInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/GetAtInfoInterceptor.java
+END
+PushSearchClientInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/ugc/!svn/ver/100512/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/PushSearchClientInterceptor.java
+END
+FriendNotifyInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/101292/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/interceptor/impl/FriendNotifyInterceptor.java
+END

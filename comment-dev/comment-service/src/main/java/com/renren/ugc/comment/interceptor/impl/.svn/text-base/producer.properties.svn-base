@@ -1,0 +1,62 @@
+#this file is used for photo comments to send events to Kafka
+topics=album;photo;album_comment;photo_comment
+
+### topic album ###
+album.serializer.class=kafka.serializer.StringEncoder
+album.zk.connect=SearchRelationZk1.d.xiaonei.com:2181,SearchRelationZk2.d.xiaonei.com:2181,SearchRelationZk3.d.xiaonei.com:2181,SearchRelationZk4.d.xiaonei.com:2181,SearchRelationZk5.d.xiaonei.com:2181
+album.producer.type=async
+album.compression.codec=0
+
+#kafka ??????
+album.queue.time=5000
+album.queue.size=10000
+album.batch.size=200
+
+#????
+album.local.queue.size=10000
+
+
+## topic photo ###
+
+photo.serializer.class=kafka.serializer.StringEncoder
+photo.zk.connect=SearchRelationZk1.d.xiaonei.com:2181,SearchRelationZk2.d.xiaonei.com:2181,SearchRelationZk3.d.xiaonei.com:2181,SearchRelationZk4.d.xiaonei.com:2181,SearchRelationZk5.d.xiaonei.com:2181
+photo.producer.type=async
+photo.compression.codec=0
+
+#kafka ??????
+photo.queue.time=5000
+photo.queue.size=10000
+photo.batch.size=200
+
+#????
+photo.local.queue.size=10000
+
+
+### topic album_test ###
+album_comment.serializer.class=kafka.serializer.StringEncoder
+album_comment.zk.connect=SearchRelationZk1.d.xiaonei.com:2181,SearchRelationZk2.d.xiaonei.com:2181,SearchRelationZk3.d.xiaonei.com:2181,SearchRelationZk4.d.xiaonei.com:2181,SearchRelationZk5.d.xiaonei.com:2181
+album_comment.producer.type=async
+album_comment.compression.codec=0
+
+#kafka ??????
+album_comment.queue.time=5000
+album_comment.queue.size=10000
+album_comment.batch.size=200
+
+#????
+album_comment.local.queue.size=10000
+
+
+### topic photo_comment ###
+photo_comment.serializer.class=kafka.serializer.StringEncoder
+photo_comment.zk.connect=SearchRelationZk1.d.xiaonei.com:2181,SearchRelationZk2.d.xiaonei.com:2181,SearchRelationZk3.d.xiaonei.com:2181,SearchRelationZk4.d.xiaonei.com:2181,SearchRelationZk5.d.xiaonei.com:2181
+photo_comment.producer.type=async
+photo_comment.compression.codec=0
+
+#kafka ??????
+photo_comment.queue.time=5000
+photo_comment.queue.size=10000
+photo_comment.batch.size=200
+
+#????
+photo_comment.local.queue.size=10000

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ugc/!svn/ver/98929/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/interceptor/impl
+END
+CheckLengthInterceptorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/interceptor/impl/CheckLengthInterceptorTest.java
+END
+UgcMqInterceptorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/ugc/!svn/ver/100513/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/interceptor/impl/UgcMqInterceptorTest.java
+END
+CheckFriendsBlockInterceptorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/interceptor/impl/CheckFriendsBlockInterceptorTest.java
+END

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0/" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="AccessLog">
+
+	<typeAlias alias="accessLog" type="com.renren.pillar.common.model.AccessLog" />
+
+	<resultMap id="accessLogResultMap" class="accessLog">
+		<result column="id" property="id" jdbcType="BIGINT" />
+		<result column="log_time" property="logTime" jdbcType="DATETIME" />
+		<result column="business" property="business" jdbcType="VARCHAR" />
+		<result column="ip" property="ip" jdbcType="VARCHAR" />
+		<result column="response_code" property="responseCode" jdbcType="VARCHAR" />
+		<result column="url" property="url" jdbcType="VARCHAR" />
+		<result column="create_time" property="createTime" jdbcType="DATETIME" />
+		<result column="enable" property="enable" jdbcType="INT" />
+		<result column="note" property="note" jdbcType="VARCHAR" />
+		<result column="count" property="count" jdbcType="INT" />
+	</resultMap>
+	
+	<resultMap id="overviewResultMap" class="accessLog"> 
+		<result column="log_time" property="logTime" jdbcType="DATETIME" />
+		<result column="business" property="business" jdbcType="VARCHAR" />
+		<result column="count" property="count" jdbcType="INT" />
+	</resultMap>
+	
+
+
+
+	<insert id="insert" parameterClass="accessLog">
+		insert into pl_access_log (
+		<isNotEmpty property="id">id</isNotEmpty>
+		<isNotEmpty property="logTime">,log_time</isNotEmpty>
+		<isNotEmpty property="business">,business</isNotEmpty>
+		<isNotEmpty property="ip">,ip</isNotEmpty>
+		<isNotEmpty property="responseCode">,response_code</isNotEmpty>
+		<isNotEmpty property="url">,url</isNotEmpty>
+		<isNotEmpty property="createTime">,create_time</isNotEmpty>
+		<isNotEmpty property="enable">,enable</isNotEmpty>
+		<isNotEmpty property="note">,note</isNotEmpty>
+		<isNotEmpty property="count">,count</isNotEmpty>
+		)
+		values
+		(
+		<isNotEmpty property="id">#id#</isNotEmpty>
+		<isNotEmpty property="logTime">,#logTime#</isNotEmpty>
+		<isNotEmpty property="business">,#business#</isNotEmpty>
+		<isNotEmpty property="ip">,#ip#</isNotEmpty> 
+		<isNotEmpty property="responseCode">,#responseCode#</isNotEmpty>
+		<isNotEmpty property="url">,#url#</isNotEmpty>
+		<isNotEmpty property="createTime">,#createTime#</isNotEmpty>
+		<isNotEmpty property="enable">,#enable#</isNotEmpty>
+		<isNotEmpty property="note">,#note#</isNotEmpty>
+		<isNotEmpty property="count">,#count#</isNotEmpty>
+		)
+	</insert>
+
+
+	<select id="query" resultMap="accessLogResultMap"
+		parameterClass="accessLog">
+		select * from pl_access_log t where t.enable = 1
+		<isNotEmpty property="business" prepend="and">
+			t.business = #business#
+		</isNotEmpty>
+		<isNotEmpty property="ip" prepend="and">
+			t.ip = #ip#
+		</isNotEmpty>
+		<isNotEmpty property="afterTime" prepend="and">
+			t.log_time >= #afterTime#
+		</isNotEmpty>
+		<isNotEmpty property="business" prepend="and">
+			t.business = #business#
+		</isNotEmpty>
+	</select>
+	
+	<select id="overview" resultMap="overviewResultMap" parameterClass="accessLog">
+		select business, log_time, sum(count) count from pl_access_log t where t.enable = 1 and t.log_time >= #afterTime# 
+		group by log_time, business 
+	</select>
+
+
+</sqlMap> 

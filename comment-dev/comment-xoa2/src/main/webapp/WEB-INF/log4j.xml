@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{yyyy-MM-dd HH:mm:ss.SSS}]%-5p:%m %n[%d{yyyy-MM-dd HH:mm:ss.SSS}]==> %l[%t]%n" />
+		</layout>
+	</appender>
+
+	<appender name="stderr" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.err" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{yyyy-MM-dd HH:mm:ss.SSS}]%-5p:%m %n[%d{yyyy-MM-dd HH:mm:ss.SSS}]==> %l[%t]%n" />
+		</layout>
+	</appender>
+
+	<appender name="xoa2FrameworkAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/data/logs/xoa2-comment/xoa2Framework.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{yyyy-MM-dd HH:mm:ss.SSS}]%-5p:%m %n[%d{yyyy-MM-dd HH:mm:ss.SSS}]==> %l[%t]%n" />
+		</layout>
+	</appender>
+
+	<appender name="commentAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="/data/logs/xoa2-comment/comment-xoa2.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%d{yyyy-MM-dd HH:mm:ss.SSS}]%-5p:%m %n[%d{yyyy-MM-dd HH:mm:ss.SSS}]==> %l[%t]%n" />
+		</layout>
+	</appender>
+
+	<appender name="xoa.framework.coalescingStatistics"
+		class="org.perf4j.log4j.AsyncCoalescingStatisticsAppender">
+		<param name="TimeSlice" value="60000" />
+		<appender-ref ref="xoa.framework.perfStatsAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</appender>
+
+	<!-- 该 appender 用于输出性能统计的汇总结果 -->
+	<appender name="xoa.framework.perfStatsAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/logs/xoa2-comment/performance/performance.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n" />
+		</layout>
+	</appender>
+
+	<!-- 该 appender 用于输出性能统计的细节 -->
+	<appender name="xoa.framework.perfDetailAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/data/logs/xoa2-comment/performance/perfDetail.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n" />
+		</layout>
+	</appender>
+
+	<!-- 统计 -->
+	<appender name="commentStatisticsAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/logs/xoa2-comment/performance/commentStatistics.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+		</layout>
+	</appender>
+
+
+
+	<appender name="jadeFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/logs/xoa2-comment/performance/jadeMonitor.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+		</layout>
+	</appender>
+
+
+	<!-- 使用ugc framework监控的queue的size的log -->
+	<appender name="ugcFrameworkQueueSizeAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/logs/xoa2-comment/ugcframework/ugcframeworkQueueSize.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+		</layout>
+	</appender>
+
+	<!-- 使用ugc framework监控的任务执行情况的log -->
+	<appender name="ugcFrameworkPerformanceAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/logs/xoa2-comment/ugcframework/ugcframeworkPerformance.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+		</layout>
+	</appender>
+
+	<appender name="comment.access.xlogAppender" class="com.renren.dp.xlog.appender.Log4jAppender">
+		<param name="async" value="true" />
+		<param name="cacheFileDir" value="/tmp/xlog/comment" /> <!-- 其中 cacheFileDir是选择本地的临时buffer目录，xlog会递归的自动创建此目录 ，当前进程必须对这个目录具备读写权限 -->
+		<param name="cacheQueueSize" value="10000" /> <!-- 其中 cacheQueueSize 是客户端内存缓存队列大小，默认10000 -->
+		<param name="maxSendSize" value="10000" /> <!-- 其中 maxSendSize 是一次性发多大的数据包，它的值在［1, 50000］之间（单位：字节） -->
+		<param name="protocolType" value="tcp" /><!-- 其中 protocolType 是传输的通信方式，默认udp会丢包，如不希望丢包则使用tcp -->
+		<param name="compress" value="false" /><!-- 是否通过压缩传输，建议大数据量用false，小数据量用true，默认不压缩 -->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd-HH:mm:ss}|%X{ip}|%m" />
+			<!-- 其中%d{yyyy-MM-dd-HH:mm:ss}表示日期时间，也即程序代码中无需再自动拼凑时间 -->
+			<!-- 其中%X{ip}表示当前机器的IP，也即程序代码中无需再拼凑IP -->
+			<!-- 其中%m表示真正log内容 -->
+			<!-- 特别注意：结尾处处不需要%n，xlog服务器端会自动添加换行 -->
+		</layout>
+	</appender>
+
+	<!-- 状态评论提醒的log统计 -->
+	<appender name="commentNotifyStatisticsAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/data/logs/xoa2-comment/notify/comment-notify.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd-HH:mm:ss}]%-5p:%m %n" />
+		</layout>
+	</appender>
+	
+	<!-- 监控appender -->
+	<appender name="pillarAppender" class="com.renren.pillar.appender.PillarAppender">
+		<param name="business" value="comment-xoa2" />
+	</appender>
+
+	<logger name="comment_notify_log" additivity="false">
+		<level value="info" />
+		<appender-ref ref="commentNotifyStatisticsAppender" />
+	</logger>
+
+
+	<logger name="ugc.comment.access" additivity="false">
+		<level value="info" />
+		<appender-ref ref="comment.access.xlogAppender" />
+	</logger>
+
+	<logger name="comment-statistics" additivity="false">
+		<level value="info" />
+		<appender-ref ref="commentStatisticsAppender" />
+	</logger>
+
+	<logger name="org.perf4j.TimingLogger" additivity="false">
+		<level value="info" />
+		<appender-ref ref="xoa.framework.coalescingStatistics" />
+		<appender-ref ref="xoa.framework.perfDetailAppender" />
+	</logger>
+
+
+	<!-- 监控jade执行性能 -->
+	<logger name="jade.monitor.DefaultLogger" additivity="false">
+		<level value="info" />
+		<appender-ref ref="jadeFileAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</logger>
+
+	<!-- 使用ugc framework监控的queue的size的log -->
+	<logger name="ugc_framework_queue_size" additivity="false">
+		<level value="info" />
+		<appender-ref ref="ugcFrameworkQueueSizeAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</logger>
+
+	<!-- 使用ugc framework监控的任务执行性能的log -->
+	<logger name="ugc.framework.perf.DefaultLogger" additivity="false">
+		<level value="info" />
+		<appender-ref ref="ugcFrameworkPerformanceAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</logger>
+
+	<logger name="com.renren.xoa2" additivity="false">
+		<level value="error" />
+		<appender-ref ref="xoa2FrameworkAppender" />
+		<appender-ref ref="commentAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</logger>
+
+	<logger name="org.apache.thrift" additivity="false">
+		<level value="error" />
+		<appender-ref ref="xoa2FrameworkAppender" />
+		<appender-ref ref="commentAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</logger>
+
+	<!-- <logger name="com.renren.ugc.comment" additivity="false"> <level value="error" 
+		/> <appender-ref ref="commentAppender" /> </logger> -->
+
+	<root>
+		<level value="error" />
+		<appender-ref ref="commentAppender" />
+		<appender-ref ref="pillarAppender"/>
+	</root>
+
+</log4j:configuration>
+        

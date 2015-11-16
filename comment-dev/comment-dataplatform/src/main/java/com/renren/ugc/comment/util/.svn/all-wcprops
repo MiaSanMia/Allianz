@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/98397/comment/branches/dev/comment-dataplatform/src/main/java/com/renren/ugc/comment/util
+END
+GetFieldsUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/98397/comment/branches/dev/comment-dataplatform/src/main/java/com/renren/ugc/comment/util/GetFieldsUtils.java
+END
+TimeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/98397/comment/branches/dev/comment-dataplatform/src/main/java/com/renren/ugc/comment/util/TimeUtils.java
+END
+FieldMapSetterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/98316/comment/branches/dev/comment-dataplatform/src/main/java/com/renren/ugc/comment/util/FieldMapSetterUtil.java
+END
+FieldMapGetterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/98316/comment/branches/dev/comment-dataplatform/src/main/java/com/renren/ugc/comment/util/FieldMapGetterUtil.java
+END

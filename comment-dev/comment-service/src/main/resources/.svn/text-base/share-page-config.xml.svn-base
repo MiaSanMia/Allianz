@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<!-- （分享page新鲜事）评论同步list -->
+	<util:list id="pageAlbumFeedList" list-class="java.util.ArrayList" value-type="java.lang.Integer">
+	   <value>2009</value> <!-- page ablum feed -->
+	   <value>8020</value> <!-- sponsored story feed -->
+	</util:list>
+
+	<util:list id="pagePhotoFeedList" list-class="java.util.ArrayList" value-type="java.lang.Integer">
+       <value>2004</value> <!-- page photo feed -->
+       <value>8022</value> <!-- sponsored story feed -->
+    </util:list>
+
+	<!-- （分享page新鲜事）评论同步map -->
+	<util:map id="pageFeedReplyMap" value-type="java.util.List" key-type="java.lang.Integer" > 
+	   <entry key="136" value-ref="pageAlbumFeedList" /> <!-- page ablum -->
+       <entry key="22" value-ref="pagePhotoFeedList" /> <!-- page photo -->
+	   <!-- add more here -->
+	</util:map>
+</beans>

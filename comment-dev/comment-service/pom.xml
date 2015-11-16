@@ -1,0 +1,471 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>comment-parent</artifactId>
+		<groupId>com.renren.ugc</groupId>
+		<version>2.0</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.xiaonei.ugc</groupId>
+	<artifactId>comment-service</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>comment service</name>
+	<description>implement the logic of creating, deleting and searching comments</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.xiaonei.ugc</groupId>
+			<artifactId>nuclear-core</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>renren-jade-monitor</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- UGC MQ推送 2014年3月11日 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>ugc-framework-mq-client</artifactId>
+			<version>2.0-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-commons-interceptors</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- 喜欢客户端 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>like-data-service-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>comment-xoa2-api</artifactId>
+			<version>${comment-xoa2-api-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.paoding</groupId>
+			<artifactId>paoding-rose</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.paoding</groupId>
+			<artifactId>paoding-rose-jade</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-core</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.protobuf</groupId>
+					<artifactId>protobuf-java</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei.xce</groupId>
+					<artifactId>oce-adapter</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-antispam</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-feed</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.xiaonei.ugc</groupId>
+					<artifactId>xiaonei-ugc-comment</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-photo-service</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei.ugc</groupId>
+					<artifactId>xiaonei-comment-service</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-status-service</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-core-struts</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-page-service-component</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.renren</groupId>
+					<artifactId>renren-sns-lifeevent</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.renren</groupId>
+					<artifactId>socialgraph</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.15</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-admin-xoa-logic</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>tripod-cache-client</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei.ugc</groupId>
+			<artifactId>ugc-doingubb-util</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+			<version>3.7.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-datasource4jade</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- 状态依赖 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>status-xoa2-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+
+		<!-- ugc 日志依赖 -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-ugc-xoa-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<!-- <exclusions> -->
+			<!-- <exclusion> -->
+			<!-- <groupId>com.xiaonei</groupId> -->
+			<!-- <artifactId>xiaonei-commons-interceptors</artifactId> -->
+			<!-- </exclusion> -->
+			<!-- </exclusions> -->
+		</dependency>
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>xoa-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- 分享依赖 -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xoa-share-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>renren-ugc-commons-tools</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-music</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-vip</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.xiaonei</groupId>
+					<artifactId>xiaonei-friend-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- 相册 -->
+		<dependency>
+			<groupId>com.xiaonei.ugc</groupId>
+			<artifactId>photo-xoa-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!--voice comment, to be deleted -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>voice-comment-xoa2-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!--@支持 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>ugc_at_xoa_api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!--获取blog依赖 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>blog-xoa2-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!--短链接判断 -->
+		<dependency>
+			<groupId>com.xiaonei.ugc</groupId>
+			<artifactId>shorturl_local_service</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- 与我有关项目 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>ugc_matter_xoa_api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!--page xoa for feed -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xoa-page-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- redis cluster -->
+		<dependency>
+			<groupId>com.renren.ad</groupId>
+			<artifactId>RedisCluster</artifactId>
+			<version>2.1.0.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- remove rights check -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-admin-xoa-client</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- tair依赖 -->
+		<dependency>
+			<groupId>com.renren.tair</groupId>
+			<artifactId>tair-util</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- friends API -->
+		<dependency>
+			<groupId>com.xiaonei.xce</groupId>
+			<artifactId>oce-buddy</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- 分享对于56视频评论互通相关 -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-api-component-sync</artifactId>
+			<version>1.0-sns-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>platform-business-client</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xiaonei.api</groupId>
+			<artifactId>xiaonei-api-realtime-client</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- 分享对于56视频评论互通相关 end -->
+		<!-- share 头像全链接 -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-core</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- share 头像全链接 end -->
+
+		<!--推送给搜索的客户端 
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>hydra-kafka-client</artifactId>
+			<version>2.0-SNAPSHOT</version>
+		</dependency>
+        -->
+        
+		<!-- 推送给搜索时用到 
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+        -->
+        
+		<dependency>
+			<groupId>com.renren</groupId>
+			<artifactId>retain-base</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!--fast json -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.1.31</version>
+		</dependency>
+
+		<!--评论中心 kafka客户端 
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>comment-kafka</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+        -->
+    
+		<!-- 评论积分 -->
+		<dependency>
+			<groupId>com.xiaonei</groupId>
+			<artifactId>xiaonei-userscore-client</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+
+		<!-- 短视频 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>xoa2-shortvideo-api</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- 短视频model -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>shortvideo_model</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- 校园主页 -->
+		<dependency>
+			<groupId>com.renren.campus</groupId>
+			<artifactId>renren-campus-xoa2-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.renren.campus</groupId>
+			<artifactId>renren-campus-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- localqueue队列服务 -->
+		<dependency>
+			<groupId>com.renren.ugc</groupId>
+			<artifactId>ugc-framework-localqueue</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+        
+        <dependency>
+          <groupId>jaxen</groupId>
+          <artifactId>jaxen</artifactId>
+          <version>1.1.4</version>
+        </dependency>
+        
+
+	</dependencies>
+
+
+	<build>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<includes>
+					<include>*</include>
+				</includes>
+			</testResource>
+		</testResources>
+
+		<plugins>
+
+			<!-- 这个插件用于添加多个源码目录(也可以用于编译自动生成的代码) -->
+			<!--<plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>build-helper-maven-plugin</artifactId> 
+				<executions> <execution> <id>add-source</id> <phase>generate-sources</phase> 
+				<goals> <goal>add-source</goal> </goals> <configuration> 暂时这样放代码，因为还要临时对外提供包 
+				<sources> <source>${basedir}/src/rss</source> </sources> </configuration> 
+				</execution> </executions> </plugin> --><!-- 编译使用1.6 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<fork>true</fork>
+					<verbose>true</verbose>
+					<encoding>UTF-8</encoding>
+					<compilerArguments>
+						<sourcepath>
+							${project.basedir}/src/main/java
+						</sourcepath>
+					</compilerArguments>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<forkMode>once</forkMode>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<systemProperties>
+						<property>
+							<name>comment.cache.disabled</name>
+							<value>true</value>
+						</property>
+					</systemProperties>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Rose>applicationContext,dao</Rose>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.7.2</version>
+				<configuration>
+					<forkMode>once</forkMode>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<systemProperties>
+						<property>
+							<name>net.sourceforge.cobertura.datafile</name>
+							<value>target/cobertura/cobertura.ser</value>
+						</property>
+					</systemProperties>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

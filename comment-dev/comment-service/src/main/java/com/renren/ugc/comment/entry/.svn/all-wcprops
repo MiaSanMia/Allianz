@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry
+END
+BlogEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/BlogEntryService.java
+END
+CampusAlbumPostEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/CampusAlbumPostEntryService.java
+END
+CampusPostEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/CampusPostEntryService.java
+END
+EntryGetService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/EntryGetService.java
+END
+ShareEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/ShareEntryService.java
+END
+CampusTopPostEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/CampusTopPostEntryService.java
+END
+PhotoEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/PhotoEntryService.java
+END
+StatusEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/StatusEntryService.java
+END
+ShortVideoEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/97454/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/ShortVideoEntryService.java
+END
+CampusExcellentEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/ugc/!svn/ver/101495/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/CampusExcellentEntryService.java
+END
+ShareAlbumPhotoEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/ShareAlbumPhotoEntryService.java
+END
+AlbumEntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/entry/AlbumEntryService.java
+END

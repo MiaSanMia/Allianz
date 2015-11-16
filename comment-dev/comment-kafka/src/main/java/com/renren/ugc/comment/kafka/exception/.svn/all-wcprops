@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/exception
+END
+InfraKafkaException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/exception/InfraKafkaException.java
+END
+InfraKafkaScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/exception/InfraKafkaScheduler.java
+END
+InfraKafkaExceptionMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/exception/InfraKafkaExceptionMonitor.java
+END

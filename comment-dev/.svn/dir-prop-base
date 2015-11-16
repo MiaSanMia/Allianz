@@ -1,0 +1,18 @@
+K 13
+svn:mergeinfo
+V 300
+/comment/branches/comment-1:96468-96471
+/comment/branches/comment-18:96760-97298
+/comment/branches/comment-19:96616-96646
+/comment/branches/comment-2:96496-96574
+/comment/branches/comment-xoa2:83087-92367
+/comment/branches/comment-xoa2-withprivacy:92368-92980
+/comment/branches/pre-trunk2:92981-93016
+K 10
+svn:ignore
+V 16
+.*
+*.iml
+target
+
+END

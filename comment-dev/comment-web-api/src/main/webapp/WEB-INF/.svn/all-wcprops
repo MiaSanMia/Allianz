@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ugc/!svn/ver/99049/comment/branches/dev/comment-web-api/src/main/webapp/WEB-INF
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ugc/!svn/ver/99049/comment/branches/dev/comment-web-api/src/main/webapp/WEB-INF/log4j.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ugc/!svn/ver/96466/comment/branches/dev/comment-web-api/src/main/webapp/WEB-INF/web.xml
+END

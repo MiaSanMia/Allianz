@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model
+END
+AvgRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/AvgRecord.java
+END
+AlarmStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/AlarmStatus.java
+END
+RotateRecordList.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/RotateRecordList.java
+END
+CommentAccessLogEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/98399/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/CommentAccessLogEntry.java
+END
+StatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/StatType.java
+END
+CommentApiObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/CommentApiObj.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/98237/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/Config.java
+END
+Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/model/Record.java
+END

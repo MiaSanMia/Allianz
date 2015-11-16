@@ -1,0 +1,52 @@
+8
+
+dir
+99694
+http://svn.d.xiaonei.com/ugc/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/bak
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-05-22T06:41:57.093543Z
+99694
+zhang.liang@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+AccessLogService.java
+file
+
+
+
+
+2014-05-22T06:44:53.000000Z
+188f11d43bc4c31bf97c81ed7c0ba526
+2014-05-22T06:41:57.093543Z
+99694
+zhang.liang@XIAONEI.OPI.COM
+
+ErrorLogService.java
+file
+
+
+
+
+2014-05-22T06:44:53.000000Z
+4146bef65c1197224fe66dc2c227155b
+2014-05-22T06:41:57.093543Z
+99694
+zhang.liang@XIAONEI.OPI.COM
+

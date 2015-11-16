@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment
+END
+FeedApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/FeedApiTest.java
+END
+ShareApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/ShareApiTest.java
+END
+DummyApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/96647/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/DummyApiTest.java
+END
+StatusApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/StatusApiTest.java
+END
+AlbumApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/AlbumApiTest.java
+END
+BlogApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/BlogApiTest.java
+END
+PhotoApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/97798/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/PhotoApiTest.java
+END
+VoiceApiTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/96493/comment/branches/dev/comment-xoa2-client/src/test/java/com/renren/ugc/comment/VoiceApiTest.java
+END

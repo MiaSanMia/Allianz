@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/event/handler
+END
+MatterToMeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/event/handler/MatterToMeHandler.java
+END
+FriendNotifyHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/event/handler/FriendNotifyHandler.java
+END
+CreateCommentEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/event/handler/CreateCommentEventHandler.java
+END

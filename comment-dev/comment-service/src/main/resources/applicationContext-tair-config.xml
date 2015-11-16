@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:ehcache="http://ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-2.5.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+  
+	<bean id="tairCacheManager"
+		class="com.renren.ugc.comment.tair.TairCacheManagerImpl">
+	</bean>
+	
+	<bean id="defaultCacheConfigration"
+		class="com.renren.ugc.comment.tair.DefaultCacheConfigration">
+		<property name="cacheConfigs">
+			<map>
+				<entry key="training">
+					<bean class="com.renren.ugc.comment.tair.CacheConfig">
+						<property name="keyPrefix" value="training" />
+						<property name="expireTime" value="86400" />
+						<property name="group" value="group_1" />
+					</bean>
+				</entry>
+				<entry key="comment_user_list">
+					<bean class="com.renren.ugc.comment.tair.CacheConfig">
+						<property name="keyPrefix" value="cul_" />
+						<property name="namespace" value="52" />
+						<property name="expireTime" value="0" />
+						<property name="group" value="group_2" />
+					</bean>
+				</entry>
+				<entry key="comment_friend_list">
+					<bean class="com.renren.ugc.comment.tair.CacheConfig">
+						<property name="keyPrefix" value="cfl_" />
+						<property name="expireTime" value="300" />
+						<property name="namespace" value="53" />
+						<property name="group" value="group_2" />
+					</bean>
+				</entry>
+				<entry key="comment_friend_list_by_author">
+					<bean class="com.renren.ugc.comment.tair.CacheConfig">
+						<property name="keyPrefix" value="cflba_" />
+						<property name="expireTime" value="300" />
+						<property name="namespace" value="53" />
+						<property name="group" value="group_2" />
+					</bean>
+				</entry>
+				<entry key="comment_entry">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="entry_" />
+                        <property name="namespace" value="0" />
+                        <property name="expireTime" value="300" />
+                        <property name="group" value="group_1" />
+                    </bean>
+                </entry>
+                <entry key="comment_likeinfo">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="" />
+                        <property name="namespace" value="0" />
+                        <property name="expireTime" value="300" />
+                        <property name="group" value="group_1" />
+                    </bean>
+                </entry>
+                <entry key="comment_also_count">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="cac-" />
+                        <property name="namespace" value="71" />
+                        <property name="group" value="group_2" />
+                    </bean>
+                </entry>
+                <entry key="comment_kafka_onoff">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="onoff_" />
+                        <property name="expireTime" value="0" />
+                        <property name="namespace" value="67" />
+                        <property name="group" value="group_2" />
+                    </bean>
+                </entry>
+                <entry key="entry_max_floor">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="emf_" />
+                        <property name="expireTime" value="0" />
+                        <property name="namespace" value="71" />
+                        <property name="group" value="group_2" />
+                    </bean>
+                </entry>
+                <!-- 用来控制ugc mq的开关，永远不过期  -->
+                <entry key="ugcMQ_kafka_onoff">
+                    <bean class="com.renren.ugc.comment.tair.CacheConfig">
+                        <property name="keyPrefix" value="ugcMQonoff_" />
+                        <property name="expireTime" value="0" />
+                        <property name="namespace" value="67" />
+                        <property name="group" value="group_2" />
+                    </bean>
+                </entry>
+				
+			</map>
+		</property>
+	</bean>
+</beans>

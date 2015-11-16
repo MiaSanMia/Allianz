@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/producer
+END
+InfraKafkaProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/producer/InfraKafkaProducer.java
+END
+DefaultPartition.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/producer/DefaultPartition.java
+END

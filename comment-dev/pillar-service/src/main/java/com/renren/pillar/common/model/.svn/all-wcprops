@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/model
+END
+AccessLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/model/AccessLog.java
+END
+ErrorLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/model/ErrorLog.java
+END
+LogType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/model/LogType.java
+END
+BaseModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/model/BaseModel.java
+END

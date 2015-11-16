@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ugc/!svn/ver/102090/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util
+END
+TimeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ugc/!svn/ver/96509/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/TimeUtil.java
+END
+AdminManagerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/101255/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AdminManagerUtil.java
+END
+UrlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/UrlUtil.java
+END
+AsyncCommentOpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AsyncCommentOpUtil.java
+END
+ImgJsonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/98921/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/ImgJsonUtil.java
+END
+EntryConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/102061/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/EntryConfig.java
+END
+RedisUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/RedisUtils.java
+END
+HashAlgorithm.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/HashAlgorithm.java
+END
+FriendsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/FriendsUtil.java
+END
+LengthUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/LengthUtil.java
+END
+IDGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/IDGenerator.java
+END
+Photo708FeedPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/Photo708FeedPublisher.java
+END
+CommentVoiceInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentVoiceInfoUtil.java
+END
+AntispamUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AntispamUtil.java
+END
+WriteOldDatabaseUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/101737/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/WriteOldDatabaseUtil.java
+END
+PackageAnnotationBeanNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/PackageAnnotationBeanNameGenerator.java
+END
+CommentOldUgcStateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentOldUgcStateUtil.java
+END
+NotifyUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/101851/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/NotifyUtil.java
+END
+NotifyedUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/99402/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/NotifyedUtil.java
+END
+NotifyAlsoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/NotifyAlsoUtil.java
+END
+UrlMd5Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ugc/!svn/ver/101752/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/UrlMd5Util.java
+END
+EntryConfigUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/101737/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/EntryConfigUtil.java
+END
+MetadataResolveUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/MetadataResolveUtil.java
+END
+ShortUrlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/ShortUrlUtil.java
+END
+FeedPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/FeedPublisher.java
+END
+CommentBusIDentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentBusIDentifier.java
+END
+VirtualShareIndexAtNotifyInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/VirtualShareIndexAtNotifyInfoBeanBuilder.java
+END
+NotifyConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/NotifyConstants.java
+END
+CommentErrorCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentErrorCode.java
+END
+PageSendFeedPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/PageSendFeedPublisher.java
+END
+XoaClientAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/XoaClientAdapter.java
+END
+Transfer2EntryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/102090/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/Transfer2EntryUtil.java
+END
+BlogShareAtNotifyInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/BlogShareAtNotifyInfoBeanBuilder.java
+END
+AtNotifyInfoBeanFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/100179/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AtNotifyInfoBeanFactory.java
+END
+GlobalIdUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/GlobalIdUtil.java
+END
+LookingWorldUrlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/99993/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/LookingWorldUrlUtil.java
+END
+FeedUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/FeedUtil.java
+END
+MatterToMeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/97006/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/MatterToMeUtil.java
+END
+AlbumPostUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/101851/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AlbumPostUtil.java
+END
+CommentPropertyPlaceholderConfigurer.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentPropertyPlaceholderConfigurer.java
+END
+CommentLikeInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentLikeInfoUtil.java
+END
+VipUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/VipUtil.java
+END
+AtUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/101851/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AtUtil.java
+END
+CommentFromConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/97324/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentFromConstant.java
+END
+AuditCommentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/100618/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/AuditCommentUtil.java
+END
+CommentCenterConsts.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/101497/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/CommentCenterConsts.java
+END
+LinkedInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/LinkedInfoUtil.java
+END
+TerminalShareAtNotifyInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/TerminalShareAtNotifyInfoBeanBuilder.java
+END

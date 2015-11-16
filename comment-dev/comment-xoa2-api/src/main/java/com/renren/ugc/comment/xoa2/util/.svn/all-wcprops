@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ugc/!svn/ver/101878/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util
+END
+GetEntryCountRPCTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/96867/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util/GetEntryCountRPCTask.java
+END
+CommentError.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/101878/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util/CommentError.java
+END
+CommentUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util/CommentUtils.java
+END
+CommentMultiGetEntryCountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/96867/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util/CommentMultiGetEntryCountService.java
+END
+CommentTypeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2-api/src/main/java/com/renren/ugc/comment/xoa2/util/CommentTypeUtils.java
+END

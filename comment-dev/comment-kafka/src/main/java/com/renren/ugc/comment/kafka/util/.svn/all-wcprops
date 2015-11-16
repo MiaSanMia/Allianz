@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util
+END
+KafkaConfigLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/KafkaConfigLoader.java
+END
+Validators.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/Validators.java
+END
+EmailUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/EmailUtils.java
+END
+InfraKafkaMessageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/InfraKafkaMessageUtils.java
+END
+InfraKafkaAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/InfraKafkaAlarm.java
+END
+KafkaConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/KafkaConstants.java
+END
+HttpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/HttpUtils.java
+END
+InfraKafkaUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/97299/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/util/InfraKafkaUtil.java
+END

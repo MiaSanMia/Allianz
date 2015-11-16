@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/async
+END
+CommentEventReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/async/CommentEventReceiver.java
+END
+CommentAsyncService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/async/CommentAsyncService.java
+END
+CommentEventManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/async/CommentEventManager.java
+END

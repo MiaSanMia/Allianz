@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ugc/!svn/ver/96578/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/util
+END
+IDGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/util/IDGeneratorTest.java
+END
+UrlMdsUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/util/UrlMdsUtilTest.java
+END
+CommentBusIDentifierTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/util/CommentBusIDentifierTest.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/98237/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/redis
+END
+KeyUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/redis/KeyUtils.java
+END
+CommentApiRedisWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/98237/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/redis/CommentApiRedisWriter.java
+END
+McsUserAccessCountRedisWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/98237/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/redis/McsUserAccessCountRedisWriter.java
+END
+McsIpAccessCountRedisWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/redis/McsIpAccessCountRedisWriter.java
+END

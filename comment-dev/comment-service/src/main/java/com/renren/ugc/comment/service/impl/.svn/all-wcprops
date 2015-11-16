@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ugc/!svn/ver/102061/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl
+END
+VoiceInfoRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/VoiceInfoRowMapper.java
+END
+StatusAuthorCommentRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/StatusAuthorCommentRowMapper.java
+END
+PhotoCommentMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/ugc/!svn/ver/101775/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/PhotoCommentMySQLService.java
+END
+ShareCommentMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/ugc/!svn/ver/101775/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/ShareCommentMySQLService.java
+END
+PhotoCommentRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/PhotoCommentRowMapper.java
+END
+MultiPhotoCommentsRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/MultiPhotoCommentsRowMapper.java
+END
+FriendRelationThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/FriendRelationThread.java
+END
+CommentRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/CommentRowMapper.java
+END
+AsyncCommentLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/AsyncCommentLogic.java
+END
+StatusCommentMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/101775/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/StatusCommentMySQLService.java
+END
+StatusCommentRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/StatusCommentRowMapper.java
+END
+CommentLogicImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/ugc/!svn/ver/102061/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/CommentLogicImpl.java
+END
+MultiCommentsRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/MultiCommentsRowMapper.java
+END
+CommentMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/101902/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/CommentMySQLService.java
+END
+CommentUrlMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/ugc/!svn/ver/96709/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/CommentUrlMySQLService.java
+END
+StatusCommentSpecialNeedsMySQLService.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/StatusCommentSpecialNeedsMySQLService.java
+END
+CommentUrlRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/service/impl/CommentUrlRowMapper.java
+END

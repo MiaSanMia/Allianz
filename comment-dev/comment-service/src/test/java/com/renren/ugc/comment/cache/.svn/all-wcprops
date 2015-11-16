@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/cache
+END
+CommentTairCacheServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/ugc/!svn/ver/97299/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/cache/CommentTairCacheServiceTest.java
+END
+CommentAllCacheServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/cache/CommentAllCacheServiceTest.java
+END
+CommentFirstPageCacheServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/cache/CommentFirstPageCacheServiceTest.java
+END
+TairKeyValueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/cache/TairKeyValueTest.java
+END

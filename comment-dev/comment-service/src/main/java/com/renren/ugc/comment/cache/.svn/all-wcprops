@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ugc/!svn/ver/101753/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache
+END
+CommentCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CommentCacheService.java
+END
+KVKeyGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/KVKeyGen.java
+END
+CommentAllCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CommentAllCacheService.java
+END
+CacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CacheManager.java
+END
+AsyncTaskDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/AsyncTaskDispatcher.java
+END
+FeedRedisCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96865/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/FeedRedisCacheService.java
+END
+CommentTaskModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CommentTaskModel.java
+END
+CommentFirstPageCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/ugc/!svn/ver/101753/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CommentFirstPageCacheService.java
+END
+CommentEntryCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/CommentEntryCacheService.java
+END
+ITaskHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/ITaskHandler.java
+END
+BaseCacheKeyGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96865/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/BaseCacheKeyGenerator.java
+END
+TripodCacheMgr.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/96709/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/cache/TripodCacheMgr.java
+END

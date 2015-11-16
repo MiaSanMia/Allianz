@@ -1,0 +1,52 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-dataplatform/src/main/webapp/WEB-INF
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-03-27T03:49:05.605353Z
+98318
+chao.wang9@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+log4j.xml
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+367a7a289a0a1f590e5c4367fd43a309
+2014-03-27T03:49:05.605353Z
+98318
+chao.wang9@XIAONEI.OPI.COM
+
+web.xml
+file
+
+
+
+
+2014-04-28T10:15:22.000000Z
+e20271f5eeabcbb96894c462cd1f776e
+2014-03-27T03:49:05.605353Z
+98318
+chao.wang9@XIAONEI.OPI.COM
+

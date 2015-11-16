@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO] Searching repository for plugin with prefix: 'dependency'.
+[INFO] ------------------------------------------------------------------------
+[INFO] Building comment service
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+[INFO] snapshot com.renren.ugc:comment-kafka:1.0-SNAPSHOT: checking for updates from central
+Downloading: http://repos.d.xiaonei.com/nexus/content/groups/public/com/renren/ugc/comment-kafka/1.0-SNAPSHOT/comment-kafka-1.0-SNAPSHOT.pom
+[INFO] Unable to find resource 'com.renren.ugc:comment-kafka:pom:1.0-SNAPSHOT' in repository central (http://central)
+[INFO] snapshot com.renren:pillar-service:1.0-SNAPSHOT: checking for updates from central
+Downloading: http://repos.d.xiaonei.com/nexus/content/groups/public/com/renren/pillar-service/1.0-SNAPSHOT/pillar-service-1.0-SNAPSHOT.pom
+[INFO] Unable to find resource 'com.renren:pillar-service:pom:1.0-SNAPSHOT' in repository central (http://central)
+Downloading: http://repos.d.xiaonei.com/nexus/content/groups/public/com/renren/pillar-service/1.0-SNAPSHOT/pillar-service-1.0-SNAPSHOT.jar
+Downloading: http://repos.d.xiaonei.com/nexus/content/groups/public/com/renren/ugc/comment-kafka/1.0-SNAPSHOT/comment-kafka-1.0-SNAPSHOT.jar
+[INFO] Unable to find resource 'com.renren:pillar-service:jar:1.0-SNAPSHOT' in repository central (http://central)
+[INFO] Unable to find resource 'com.renren.ugc:comment-kafka:jar:1.0-SNAPSHOT' in repository central (http://central)
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] Failed to resolve artifact.
+
+Missing:
+----------
+1) com.renren:pillar-service:jar:1.0-SNAPSHOT
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=com.renren -DartifactId=pillar-service -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=com.renren -DartifactId=pillar-service -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.xiaonei.ugc:comment-storm:jar:1.0-SNAPSHOT
+  	2) com.renren:pillar-service:jar:1.0-SNAPSHOT
+
+2) com.renren.ugc:comment-kafka:jar:1.0-SNAPSHOT
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=com.renren.ugc -DartifactId=comment-kafka -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=com.renren.ugc -DartifactId=comment-kafka -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.xiaonei.ugc:comment-storm:jar:1.0-SNAPSHOT
+  	2) com.renren.ugc:comment-kafka:jar:1.0-SNAPSHOT
+
+----------
+2 required artifacts are missing.
+
+for artifact: 
+  com.xiaonei.ugc:comment-storm:jar:1.0-SNAPSHOT
+
+from the specified remote repositories:
+  nexus (http://repos.d.xiaonei.com/nexus/content/groups/public)
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1 second
+[INFO] Finished at: Tue May 27 12:37:32 CST 2014
+[INFO] Final Memory: 13M/491M
+[INFO] ------------------------------------------------------------------------

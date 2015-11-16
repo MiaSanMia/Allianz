@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>comment-parent</artifactId>
+        <groupId>com.renren.ugc</groupId>
+        <version>2.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.renren.ugc</groupId>
+    <artifactId>comment-feed-xoa2</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>comment xoa2 feed</name>
+    <description>comment center for feed xoa2 api implementation</description>
+
+    <developers>
+        <developer>
+            <id>jiankuan.xing</id>
+            <name>邢剑宽</name>
+            <email>jiankuan.xing@renren-inc.com</email>
+            <organization>biz framework group</organization>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.renren.ugc</groupId>
+            <artifactId>comment-xoa2-api</artifactId>
+            <version>${comment-xoa2-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xiaonei.ugc</groupId>
+            <artifactId>comment-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.renren</groupId>
+            <artifactId>xoa2-serverlib</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

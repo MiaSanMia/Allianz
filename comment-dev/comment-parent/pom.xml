@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.renren.ugc</groupId>
+    <artifactId>comment-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>comment center parent pom</name>
+    <description>comment center parent pom</description>
+    <version>2.0</version>
+
+    <parent>
+        <groupId>com.xiaonei</groupId>
+        <artifactId>xiaonei-root-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <properties>
+        <comment-xoa2-api-version>2.0-SNAPSHOT</comment-xoa2-api-version>
+    </properties>
+    
+    <!-- force to use libthrift-1.0-SNAPSHOT. without the following statement, libthrift-0.8.0 will
+         be used due to the configuration  in the xiaonei-root-pom -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+               <groupId>org.apache.thrift</groupId>
+               <artifactId>libthrift</artifactId>
+               <version>1.0-SNAPSHOT</version>
+           </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
+</project>

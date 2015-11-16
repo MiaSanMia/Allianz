@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ugc/!svn/ver/101776/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao
+END
+BlogCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/BlogCommentDAO.java
+END
+ShareCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/ShareCommentDAO.java
+END
+AlbumCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/AlbumCommentDAO.java
+END
+IdSequenceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/IdSequenceDAO.java
+END
+FriendShareDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/FriendShareDAO.java
+END
+FriendsStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/FriendsStatusDAO.java
+END
+PhotoCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/PhotoCommentDAO.java
+END
+StatusCountDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/StatusCountDAO.java
+END
+StatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/StatusDAO.java
+END
+StatusCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/StatusCommentDAO.java
+END
+ShareDeleteLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96709/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/ShareDeleteLogDAO.java
+END
+CommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/101776/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/CommentDAO.java
+END
+VoiceCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/VoiceCommentDAO.java
+END
+UrlCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96811/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/UrlCommentDAO.java
+END
+ExtCommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/dao/ExtCommentDAO.java
+END

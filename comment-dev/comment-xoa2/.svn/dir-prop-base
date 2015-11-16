@@ -1,0 +1,21 @@
+K 13
+svn:mergeinfo
+V 592
+/comment/branches/comment-18/comment-xoa2:96760-97298
+/comment/branches/comment-19/comment-xoa2:96616-96646
+/comment/branches/comment-2/comment-xoa2:96496-96574
+/comment/branches/comment-20140306-xiaoyuanzhuye/comment-xoa2:97548-98589
+/comment/branches/comment-xoa2/comment-xoa2:83087-83354
+/comment/branches/comment_remove_1211/comment-xoa2:96688-96708
+/comment/branches/firend_list/comment-xoa2:95722-96408
+/comment/branches/removeGlobalComment_20131203/comment-xoa2:96530-96619
+/comment/branches/removeGlobalComment_20131209/comment-xoa2:96619-96688
+/comment/trunk/comment-xoa2:96466-96529
+K 10
+svn:ignore
+V 16
+.*
+*.iml
+target
+
+END

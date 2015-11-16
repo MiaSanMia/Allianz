@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy
+END
+CommentConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/101851/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy/CommentConfig.java
+END
+QueryOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy/QueryOrder.java
+END
+ForInvokeStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy/ForInvokeStrategy.java
+END
+CommentStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/101585/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy/CommentStrategy.java
+END
+ForCommentStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/strategy/ForCommentStrategy.java
+END

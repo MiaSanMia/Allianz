@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/spouts
+END
+KafkaConsumerSpout.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/spouts/KafkaConsumerSpout.java
+END

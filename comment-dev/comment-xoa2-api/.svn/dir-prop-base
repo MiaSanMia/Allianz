@@ -1,0 +1,18 @@
+K 13
+svn:mergeinfo
+V 454
+/comment/branches/comment-18/comment-xoa2-api:96760-97298
+/comment/branches/comment-2/comment-xoa2-api:96496-96574
+/comment/branches/comment-20140306-xiaoyuanzhuye/comment-xoa2-api:97548-98588
+/comment/branches/comment-xoa2/comment-xoa2-api:83087-83355
+/comment/branches/comment_remove_1211/comment-xoa2-api:96688-96708
+/comment/branches/firend_list/comment-xoa2-api:95722-96408
+/comment/branches/removeGlobalComment_20131209/comment-xoa2-api:96619-96688
+K 10
+svn:ignore
+V 16
+.*
+*.iml
+target
+
+END

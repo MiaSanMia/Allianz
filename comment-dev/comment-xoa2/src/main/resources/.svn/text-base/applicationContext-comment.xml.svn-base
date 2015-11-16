@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-2.5.xsd" default-lazy-init="false">
+
+    <!-- <bean id="com.xiaonei.comment.logic.photo" class="com.xiaonei.album.comment.PhotoEntryLogic"></bean> -->
+    <!-- <bean id="com.xiaonei.comment.logic.album" class="com.xiaonei.album.comment.AlbumEntryLogic"></bean> -->
+    <!-- <bean id="com.xiaonei.comment.logic.eventPhoto" class="com.renren.event.home.EventCommentEntryLogic"></bean> -->
+    <!-- <bean id="com.xiaonei.comment.logic.pageShop" name="pageShopComment" class="com.xiaonei.page.service.shopping.PageShopEntry4UgcService"></bean> -->
+	<!-- <bean id="com.xiaonei.comment.logic.dummy" class="com.renren.ugc.comment.dummy.DummyEntryLogic"></bean> -->
+    <!--  -->
+    <!-- <bean id="com.xiaonei.comment.logic.schoolPhoto" class="com.xiaonei.highschool.service.outer.ugc.SchoolPhotoCommentLogic"></bean> -->
+    <!-- 为了避免懒加载-->
+    <!-- <bean class="com.renren.event.home.EventHomeFactory"/> -->
+</beans>

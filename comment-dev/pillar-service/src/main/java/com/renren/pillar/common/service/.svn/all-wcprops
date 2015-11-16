@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/service
+END
+PillarUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/service/PillarUtils.java
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/service/BaseService.java
+END
+BaseServiceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/service/BaseServiceFactory.java
+END

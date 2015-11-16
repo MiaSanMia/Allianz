@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/96578/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/exception
+END
+UGCCacheException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/exception/UGCCacheException.java
+END
+UGCCommentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/exception/UGCCommentException.java
+END
+UGCEntryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/exception/UGCEntryException.java
+END

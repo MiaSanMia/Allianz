@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/Comment.java
+END
+CommentListResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CommentListResult.java
+END
+AuditComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/AuditComment.java
+END
+MonitorMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/98259/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/MonitorMessage.java
+END
+Entry.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/Entry.java
+END
+ShareBusinessNotifyBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/ShareBusinessNotifyBody.java
+END
+FeedCommentResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/FeedCommentResult.java
+END
+SimpleCommentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/SimpleCommentInfo.java
+END
+CommentLikeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CommentLikeInfo.java
+END
+FeedCommentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/FeedCommentInfo.java
+END
+ShareFeedConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/ShareFeedConfig.java
+END
+CreateCommentEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/100513/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CreateCommentEvent.java
+END
+RepliedUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/RepliedUser.java
+END
+Metadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/Metadata.java
+END
+MultiFeedComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/MultiFeedComment.java
+END
+CommentPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/101972/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CommentPackage.java
+END
+CommentVoiceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CommentVoiceInfo.java
+END
+CommentLinkedInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ugc/!svn/ver/100544/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/CommentLinkedInfo.java
+END
+Flag.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/model/Flag.java
+END

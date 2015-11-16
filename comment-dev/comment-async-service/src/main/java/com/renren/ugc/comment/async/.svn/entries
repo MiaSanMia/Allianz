@@ -1,0 +1,67 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-async-service/src/main/java/com/renren/ugc/comment/async
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-02-14T03:28:23.934174Z
+97289
+yueqiang.zheng@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+CommentAsyncService.java
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+1943dfe1190d947892ea589a39bd64e6
+2014-02-14T03:17:05.580016Z
+97287
+yueqiang.zheng@XIAONEI.OPI.COM
+
+CommentEventManager.java
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+f7e0a78f5ad599cac809fefe76d15715
+2014-02-14T03:28:23.934174Z
+97289
+yueqiang.zheng@XIAONEI.OPI.COM
+
+CommentEventReceiver.java
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+d80f1b474a5eefb33eb8cf129b21b4e4
+2013-12-26T07:20:34.137162Z
+96900
+jiankuan.xing@XIAONEI.OPI.COM
+
+tool
+dir
+

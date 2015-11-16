@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xoa-app>
+    <services>
+        <service id="comment_feed.ugc.xoa.renren.com" class="com.renren.ugc.comment.feed.xoa2.XCommentCenterForFeedImpl"
+                 port="7072">
+            <worker-thread-pool core-size="80" max-size="160" />
+        </service>
+    </services>
+</xoa-app>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/resources
+END
+applicationContext-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/resources/applicationContext-service.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/resources/log4j.xml
+END
+kafka-config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ugc/!svn/ver/97299/comment/branches/dev/comment-async-service/src/main/resources/kafka-config.properties
+END

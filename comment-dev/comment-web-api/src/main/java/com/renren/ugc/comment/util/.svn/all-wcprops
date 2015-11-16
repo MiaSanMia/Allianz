@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ugc/!svn/ver/98591/comment/branches/dev/comment-web-api/src/main/java/com/renren/ugc/comment/util
+END
+CommentControllerUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/ugc/!svn/ver/96466/comment/branches/dev/comment-web-api/src/main/java/com/renren/ugc/comment/util/CommentControllerUtils.java
+END
+ErrorCodeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/96466/comment/branches/dev/comment-web-api/src/main/java/com/renren/ugc/comment/util/ErrorCodeAdapter.java
+END
+JSONConvertUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/98591/comment/branches/dev/comment-web-api/src/main/java/com/renren/ugc/comment/util/JSONConvertUtils.java
+END

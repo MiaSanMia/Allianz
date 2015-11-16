@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ugc/!svn/ver/96578/comment/branches/dev/comment-xoa2/src/main/resources
+END
+applicationContext-comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2/src/main/resources/applicationContext-comment.xml
+END
+getServerEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2/src/main/resources/getServerEnv.sh
+END

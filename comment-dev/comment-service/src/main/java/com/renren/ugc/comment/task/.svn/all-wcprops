@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ugc/!svn/ver/101160/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task
+END
+CommentSmsQueueAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task/CommentSmsQueueAlarm.java
+END
+BaseCommentTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/99659/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task/BaseCommentTask.java
+END
+CommentTaskDispatcherClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task/CommentTaskDispatcherClient.java
+END
+CommentTaskType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ugc/!svn/ver/101160/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task/CommentTaskType.java
+END
+CommentTaskDispatcherClientInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/99655/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/task/CommentTaskDispatcherClientInitializer.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ugc/!svn/ver/101744/comment/branches/dev/comment-xoa2/src/main/webapp/WEB-INF
+END
+xoa.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2/src/main/webapp/WEB-INF/xoa.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ugc/!svn/ver/101744/comment/branches/dev/comment-xoa2/src/main/webapp/WEB-INF/log4j.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ugc/!svn/ver/96466/comment/branches/dev/comment-xoa2/src/main/webapp/WEB-INF/web.xml
+END

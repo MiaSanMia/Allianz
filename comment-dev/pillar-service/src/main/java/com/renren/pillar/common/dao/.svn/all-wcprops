@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/dao
+END
+BaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/dao/BaseDAO.java
+END
+AccessLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/dao/AccessLog.xml
+END
+ErrorLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/99694/pillar/trunk/pillar-service/src/main/java/com/renren/pillar/common/dao/ErrorLog.xml
+END

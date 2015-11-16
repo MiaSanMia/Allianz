@@ -1,0 +1,124 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-04-09T05:49:55.477194Z
+98929
+tuanwang.liu@XIAONEI.OPI.COM
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+AlbumCommentServiceTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+a888bde7d5dfa5725cbe4cea5104b5d0
+2013-07-18T10:03:16.641790Z
+93150
+jiankuan.xing@XIAONEI.OPI.COM
+has-props
+
+BlogCommentTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+0cf795197f9444618c3e207866a092d0
+2013-09-09T10:55:04.975536Z
+94393
+jiankuan.xing@XIAONEI.OPI.COM
+
+CommentCenterTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+49a7ae88bc506dc156f01b6beaefacd9
+2013-12-09T03:27:10.059507Z
+96602
+chao.wang9@XIAONEI.OPI.COM
+
+CommentCenterUgc2AlbumTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+5fdbcc4a011a2e5abf822580167ce414
+2013-07-18T10:03:16.641790Z
+93150
+jiankuan.xing@XIAONEI.OPI.COM
+has-props
+
+PhotoCommentServiceTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+c0e5db4fdb497daa1f27d8b8b3b87bfc
+2014-02-17T06:38:58.061302Z
+97299
+yueqiang.zheng@XIAONEI.OPI.COM
+has-props
+
+UgcMqTest.java
+file
+
+
+
+
+2014-04-28T10:15:17.000000Z
+e326a4885f3b0c2caad6a1abe6dc57a1
+2014-04-02T09:53:13.313441Z
+98591
+tuanwang.liu@XIAONEI.OPI.COM
+
+cache
+dir
+
+interceptor
+dir
+
+service
+dir
+
+statistics
+dir
+
+strategy
+dir
+
+test
+dir
+
+util
+dir
+

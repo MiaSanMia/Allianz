@@ -1,0 +1,53 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-kafka/src/main/java/com/renren/ugc/comment/kafka/producer
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-02-14T03:12:03.881741Z
+97286
+yueqiang.zheng@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+DefaultPartition.java
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+9ea8a4f8a84b0264f6249d5e7e1b42ab
+2013-12-18T05:30:41.730361Z
+96814
+jiankuan.xing@XIAONEI.OPI.COM
+has-props
+
+InfraKafkaProducer.java
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+3aa58cde83d32f5ad341108c1cbd59af
+2014-02-14T03:12:03.881741Z
+97286
+yueqiang.zheng@XIAONEI.OPI.COM
+

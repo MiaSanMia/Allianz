@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ugc/!svn/ver/98929/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment
+END
+CommentCenterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/96602/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/CommentCenterTest.java
+END
+BlogCommentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/BlogCommentTest.java
+END
+AlbumCommentServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/AlbumCommentServiceTest.java
+END
+PhotoCommentServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/97299/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/PhotoCommentServiceTest.java
+END
+UgcMqTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ugc/!svn/ver/98591/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/UgcMqTest.java
+END
+CommentCenterUgc2AlbumTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/test/java/com/renren/ugc/comment/CommentCenterUgc2AlbumTest.java
+END

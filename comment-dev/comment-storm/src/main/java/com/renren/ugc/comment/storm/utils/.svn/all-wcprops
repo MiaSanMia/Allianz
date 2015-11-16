@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils
+END
+CommentStormAlarmUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/ugc/!svn/ver/98630/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/CommentStormAlarmUtils.java
+END
+DBUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ugc/!svn/ver/98399/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/DBUtils.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/99443/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/Constants.java
+END
+AsyncExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/AsyncExecutor.java
+END
+EmailUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/98630/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/EmailUtils.java
+END
+TimeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/98237/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/TimeUtils.java
+END
+AlarmUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/AlarmUtils.java
+END
+HttpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ugc/!svn/ver/98630/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/HttpUtils.java
+END
+RedisUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/97430/comment/branches/dev/comment-storm/src/main/java/com/renren/ugc/comment/storm/utils/RedisUtils.java
+END

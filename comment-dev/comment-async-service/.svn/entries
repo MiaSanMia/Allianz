@@ -1,0 +1,55 @@
+8
+
+dir
+99305
+http://svn.d.xiaonei.com/ugc/comment/branches/dev/comment-async-service
+http://svn.d.xiaonei.com/ugc
+
+
+
+2014-02-18T07:30:22.399129Z
+97317
+chao.wang9@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f6ad185-7dae-4b24-b6c2-943ad35d5059
+
+pom.xml
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+e7854a006a59b3e3d0cd384f5ebc6105
+2014-02-14T03:17:05.580016Z
+97287
+yueqiang.zheng@XIAONEI.OPI.COM
+
+src
+dir
+
+start.sh
+file
+
+
+
+
+2014-04-28T10:15:20.000000Z
+38d21ff96a5ab9957dcb6deeb7e3fa74
+2014-02-14T03:19:47.660706Z
+97288
+yueqiang.zheng@XIAONEI.OPI.COM
+

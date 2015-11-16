@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ugc/!svn/ver/100121/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share
+END
+ShareMatteredUgcInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareMatteredUgcInfoBeanBuilder.java
+END
+SharePageCommentFeedUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/ugc/!svn/ver/100121/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/SharePageCommentFeedUtil.java
+END
+ShareAtNotifyInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareAtNotifyInfoBeanBuilder.java
+END
+ShareUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ugc/!svn/ver/98613/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareUtil.java
+END
+ShareListAtNotifyInfoBeanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareListAtNotifyInfoBeanBuilder.java
+END
+ShareUBBUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/ugc/!svn/ver/96466/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareUBBUtil.java
+END
+ShareFeedUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/ugc/!svn/ver/100121/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareFeedUtil.java
+END
+ShareBusinessNotifyBodyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/ugc/!svn/ver/96703/comment/branches/dev/comment-service/src/main/java/com/renren/ugc/comment/util/share/ShareBusinessNotifyBodyBuilder.java
+END

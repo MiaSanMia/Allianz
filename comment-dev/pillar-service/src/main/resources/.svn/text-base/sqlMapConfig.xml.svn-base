@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE sqlMapConfig  PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0/" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+
+<sqlMapConfig>
+
+	<!--<settings cacheModelsEnabled="false" enhancementEnabled="false" lazyLoadingEnabled="false" 
+		maxRequests="512" maxSessions="128" maxTransactions="32" useStatementNamespaces="true" 
+		/> -->
+
+	<settings useStatementNamespaces="true" lazyLoadingEnabled="true" />
+
+	<!-- 使用JDBC的事务管理 -->
+	<transactionManager type="JDBC">
+		<!-- 数据源 -->
+		<dataSource type="SIMPLE">
+			<property name="JDBC.Driver" value="com.mysql.jdbc.Driver" />
+			<property name="JDBC.ConnectionURL" value="jdbc:mysql://10.3.20.169:3306/pillar" />
+			<property name="JDBC.Username" value="root" />
+			<property name="JDBC.Password" value="root" />
+		</dataSource>
+	</transactionManager>
+
+	<sqlMap resource="com/renren/pillar/common/dao/ErrorLog.xml" /> 
+	
+</sqlMapConfig>
